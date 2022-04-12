@@ -2,6 +2,8 @@ What if you need to put all the values from several observations into a single c
 
 This example starts with 1 record per customer<=>product relationship, and ends with 1 row per customer, with all of their products in a single comma delimmited string.
 
+Proc transpose is probably a more scalable solution, but this a go-to for quick and dirty results.
+
 ```SAS
 proc sort data=have noduprecs;
 by customer;
