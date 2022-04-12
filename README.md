@@ -1,2 +1,2 @@
 # useful-code
-Library of useful snippets
+Library of useful snippets categorized by language.
