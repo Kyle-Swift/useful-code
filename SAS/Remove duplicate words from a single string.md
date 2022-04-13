@@ -3,8 +3,8 @@
 Process flows as:
   1. New string = First word in original string.
   2. Do (from the second word until the last):
-    a. Pick the next word.
-    b. If this word isn't already in the new string, keep it. Otherwise, move on.
+      1. Pick the next word.
+      2. If this word isn't already in the new string, keep it. Otherwise, move on.
 
 ```SAS
 data want;
