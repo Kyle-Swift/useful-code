@@ -1,4 +1,4 @@
-"Word" means the same as "Substring" in this case. The example code is actually looking for distinct words as commas delimmited substrings.
+"Word" means the same as "Substring" in this case. The example code is actually looking for distinct words as comma delimmited substrings.
 
 Process flows as:
   1. New string = First word in original string.
